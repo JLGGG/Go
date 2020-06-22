@@ -1,5 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="8b79acfd-4ea7-44e5-858d-ed705e95a885" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
@@ -36,7 +54,20 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="com.goide.configuration.GoLibrariesConfigurableProvider" />
   </component>
-  <component name="RunManager">
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\USER-PC\OneDrive - 대구경북과학기술원\Go\src\basics" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Go Build.go build practice_channel1.go">
+    <configuration name="go build practice_channel1.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="Go" />
+      <working_directory value="$PROJECT_DIR$/" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/src/basics/main/practice_channel1.go" />
+      <directory value="$PROJECT_DIR$/" />
+      <method v="2" />
+    </configuration>
     <configuration name="go build using_closure.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="Go" />
       <working_directory value="$PROJECT_DIR$/" />
@@ -45,8 +76,18 @@
       <directory value="$PROJECT_DIR$/" />
       <method v="2" />
     </configuration>
+    <configuration name="go build using_multicore.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="Go" />
+      <working_directory value="$PROJECT_DIR$/" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/src/basics/main/using_multicore.go" />
+      <directory value="$PROJECT_DIR$/" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Build.go build practice_channel1.go" />
+        <item itemvalue="Go Build.go build using_multicore.go" />
         <item itemvalue="Go Build.go build using_closure.go" />
       </list>
     </recent_temporary>
@@ -54,23 +95,34 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="2" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="WindowStateProjectService">
-    <state width="1344" height="227" key="GridCell.Tab.0.bottom" timestamp="1591886784245">
+    <state width="1017" height="281" key="GridCell.Tab.0.bottom" timestamp="1592811246803">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1344" height="227" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1591886784245" />
-    <state width="1344" height="227" key="GridCell.Tab.0.center" timestamp="1591886784245">
+    <state width="1017" height="281" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1592811246803" />
+    <state width="1017" height="281" key="GridCell.Tab.0.center" timestamp="1592811246803">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1344" height="227" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1591886784245" />
-    <state width="1344" height="227" key="GridCell.Tab.0.left" timestamp="1591886784245">
+    <state width="1017" height="281" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1592811246803" />
+    <state width="1017" height="281" key="GridCell.Tab.0.left" timestamp="1592811246802">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1344" height="227" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1591886784245" />
-    <state width="1344" height="227" key="GridCell.Tab.0.right" timestamp="1591886784245">
+    <state width="1017" height="281" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1592811246802" />
+    <state width="1017" height="281" key="GridCell.Tab.0.right" timestamp="1592811246803">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1344" height="227" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1591886784245" />
+    <state width="1017" height="281" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1592811246803" />
     <state x="509" y="156" key="SettingsEditor" timestamp="1591886778224">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

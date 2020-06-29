@@ -31,10 +31,10 @@ func main() {
 	}
 
 	for i:=0; i<3; i++{
-		mutex.Lock()
+		mutex.Lock() //Lock mutex, starting cond.Signal() protection.
 		fmt.Println("signal : ", i)
 		cond.Signal() //Waiting goroutines wakes up one by one.
-		mutex.Unlock()
+		mutex.Unlock() //Unlock mutex, end cond.Signal() protection.
 	}
 	fmt.Scanln()
 }
